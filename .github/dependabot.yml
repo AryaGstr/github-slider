@@ -12,3 +12,10 @@ updates:
     schedule:
       interval: "weekly"
     rebase-strategy: "disabled"
+
+# version updates for RubyGems
+  - package-ecosystem: "RubyGems"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    rebase-strategy: "disabled"
