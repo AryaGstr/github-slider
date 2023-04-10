@@ -14,7 +14,7 @@ updates:
     rebase-strategy: "disabled"
 
 # version updates for RubyGems
-  - package-ecosystem: "RubyGems"
+  - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "weekly"
